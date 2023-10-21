@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header"></div>
+    <div class="box">
+      <div class="box__item box__item-dark">
+        <div class="box__item__content ">
+          <h1>Your Result</h1>
+          <div class="circle">
+            <p class="text-purplish"><span class="circle__text-large">76</span><br>
+              of 100
+            </p>
+          </div>
+          <h2>Great</h2>
+          <p class="text-purplish">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      <div class="box__item box__item-light">
+        <div class="box__item__content">
+          <h1>Summary</h1>
+          <div class="list__item list__item-red">
+            <img class="list__item__icon"src="assets/images/icon-reaction.svg" alt="">
+            <p> Reaction </p>
+            <p class="list__item__text-right"><strong>80</strong> / 100</p>
+          </div>
+          <div class="list__item list__item-orange">
+            <img class="list__item__icon" src="assets/images/icon-memory.svg" alt="">
+            <p>Memory</p>
+            <p class="list__item__text-right"><strong>92</strong>/ 100</p>
+          </div>
+          <div class="list__item list__item-green">
+            <img  class="list__item__icon"src="assets/images/icon-verbal.svg" alt="">
+            <p>Verbal</p>
+            <p class="list__item__text-right"><strong>61</strong>/ 100</p>
+          </div>
+          <div class="list__item list__item-blue">
+            <img  class="list__item__icon"src="assets/images/icon-visual.svg" alt="">
+            <p>Visual</p>
+            <p class="list__item__text-right"><strong>72</strong>/ 100</p>
+          </div>
+          <button class="btn-main">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+</body>
+</html>
